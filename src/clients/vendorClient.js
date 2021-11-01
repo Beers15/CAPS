@@ -1,0 +1,1 @@
+const hubEvents = require('./globalEventHub/hubEvents.js');
