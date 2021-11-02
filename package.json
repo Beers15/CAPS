@@ -1,0 +1,27 @@
+{
+  "name": "CAPS",
+  "version": "1.0.0",
+  "description": "## Installation",
+  "main": "index.js",
+  "dependencies": {
+    "faker": "^5.5.3",
+    "jest": "^27.3.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "start": "node index.js 'Sample Store Name'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beers15/CAPS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Beers15/CAPS/issues"
+  },
+  "homepage": "https://github.com/Beers15/CAPS#readme"
+}
