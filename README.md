@@ -30,7 +30,7 @@
 
   <!-- App deployed on Heroku [here]() -->
 
-  Pull req from dev found [here]()
+  Pull req from dev found [here](https://github.com/Beers15/CAPS/pull/1)
 
 ## Uml Diagram
 
