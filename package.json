@@ -5,11 +5,13 @@
   "main": "index.js",
   "dependencies": {
     "faker": "^5.5.3",
+    "jest": "^27.3.1",
     "uuid": "^8.3.2"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose --coverage",
+    "start": "node index.js 'Sample Store Name'"
   },
   "repository": {
     "type": "git",

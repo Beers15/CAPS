@@ -4,7 +4,7 @@
 
   clone repo, and then in a terminal run the 'npm i' command while in the root directory to install dependencies.
   
-  To run the application, enter the 'npm run start' command in a terminal while in the root directory. Phase 1 will just output the sequence of events from sample data.
+  To run the application, enter the command node index.js "Store name" in a terminal while in the root directory. Store name must be surrounded in quotations. Phase 1 will just output the sequence of events between vendor and driver and generate made up data aside from the entered store name.
 
 ## Summary of Problem Domain
 

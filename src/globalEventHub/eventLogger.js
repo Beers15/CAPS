@@ -1,7 +1,7 @@
 const hubEvents = require('./hubEvents.js');
 
-hubEvents.on('payload', (payload) => {
-  console.log(getEventInfo('payload', payload));
+hubEvents.on('pickup', (payload) => {
+  console.log(getEventInfo('pickup', payload));
   
   hubEvents.emit('logged');
 });
