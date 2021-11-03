@@ -3,9 +3,9 @@
 ## Installation
 
   clone repo, and then in a terminal run the 'npm i' command while in the root directory to install dependencies.
-  
-  To run the application, enter the command node index.js "Store name" in a terminal while in the root directory. Store name must be surrounded in quotations. Phase 1 will just output the sequence of events between vendor and driver and generate made up data aside from the entered store name.
 
+  Run the socket.io server, and the driver client. Next run the  then navigate to a browser or an API testing tool. At the /caps route supply as a query string a name of a store do kick of the sequence of events
+  
 ## Summary of Problem Domain
 
   Create a basic event driven application. This app should simulate a delivery service where vendors ship products using the delivery service and when drivers deliver them, those venders will be notified that their customers received what they purchased.
@@ -26,12 +26,18 @@
 
     App will have Proper CI/CD configuration
 
+  Phase 2 requirements:
+
+    Add a socket server with a CAPS namespace that will replace the event driver logic coded with the Node events module in the previous phase and handle all event driven logic.
+
+    Have the Vendor and Driver clients interact with this namespace to perform the same actions as in Phase 1.
+
 ## Links to application deployment
 
   <!-- App deployed on Heroku [here]() -->
 
-  Pull req from dev found [here](https://github.com/Beers15/CAPS/pull/1)
+  Pull req from dev found [here](https://github.com/Beers15/CAPS/pull/2)
 
 ## Uml Diagram
 
-![diagram](./events-uml.png)
+![diagram](./CAPS.png)
