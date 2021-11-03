@@ -4,14 +4,17 @@
   "description": "## Installation",
   "main": "index.js",
   "dependencies": {
+    "dotenv": "^10.0.0",
     "faker": "^5.5.3",
     "jest": "^27.3.1",
+    "socket.io": "^4.3.1",
+    "socket.io-client": "^4.3.2",
     "uuid": "^8.3.2"
   },
   "devDependencies": {},
   "scripts": {
     "test": "jest --verbose --coverage",
-    "start": "node index.js 'Sample Store Name'"
+    "start": "node ./src/socketServer/server.js ./src/clients/vendor.js ./src/clients/driver.js"
   },
   "repository": {
     "type": "git",
