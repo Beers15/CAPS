@@ -4,7 +4,7 @@
 
   clone repo, and then in a terminal run the 'npm i' command while in the root directory to install dependencies.
 
-  Run the socket.io server, and the driver client. Next run the  then navigate to a browser or an API testing tool. At the /caps route supply as a query string a name of a store do kick of the sequence of events
+  Run the socket.io server (node src/socketServer/server.js), the driver client  (node src/clients/driver.js) and the vendor client simultaneously (Supply a "Store Name" here: node src/clients/vendor.js "Store Name"). The console will display the sequence of events.
   
 ## Summary of Problem Domain
 
