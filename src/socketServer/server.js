@@ -5,6 +5,8 @@ const PORT = process.env.PORT || 3000;
 const server = socketio(PORT); 
 require('dotenv').config();
 
+
+
 const logEvent = require('./logEvent.js');
 
 const caps = server.of('/caps');
